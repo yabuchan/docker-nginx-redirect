@@ -2,6 +2,7 @@ to:
   build: .
   ports:
     - "80:80"
+      "443:443"
   environment:
     - SERVER_REDIRECT=www.example.com
     # optionally define path to redirect all requests
