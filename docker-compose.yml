@@ -1,5 +1,5 @@
 to:
-  image: schmunk42/nginx-redirect
+  build: .
   ports:
     - "80:80"
   environment:
